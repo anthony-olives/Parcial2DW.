@@ -1,0 +1,74 @@
+/*Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #afdacc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px; 
+}
+
+/*Contenedor del juego */
+.container {
+    background-color: #ddd48f;
+    padding: 1.25rem;
+    border-radius: 0.625rem; 
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    max-width: 25rem;
+    width: 100%;
+}
+
+/*titulo */
+h1 {
+    font-size: 1.5rem; 
+    margin-bottom: 1.25rem; 
+    color: #4a7337;
+}
+
+/*Estilo para el tablero */
+.board {
+    margin-bottom: 1.25rem; 
+}
+
+.row {
+    margin-bottom: 0.625rem; 
+}
+
+/*Input de las celdas */
+input.form-control {
+    font-size: 1.5rem; 
+    text-align: center;
+    cursor: pointer;
+}
+
+input.form-control-sm {
+    font-size: 1.125rem; 
+    padding: 0.625rem; 
+}
+
+/*Botnes */
+.btn {
+    font-size: 0.875rem; 
+    padding: 0.625rem; 
+    border-radius: 0.3125rem; 
+}
+
+.d-grid {
+    margin-top: 1.25rem; 
+}
+
+.btn-sm {
+    font-size: 0.875rem; 
+    padding: 0.625rem; 
+    border-radius: 0.3125rem; 
+}
+
+/*Mensajes */
+#message {
+    font-size: 1.25rem; 
+    color: #333;
+    font-weight: bold;
+}
+

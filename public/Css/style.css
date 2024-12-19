@@ -1,0 +1,72 @@
+/*tamaño base de la fuente para la raíz (html) */
+html {
+    font-size: 16px; 
+}
+
+/*Fondo y color de la página */
+body {
+    background-color: 	#f0ede4;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem; /* 16px */
+}
+
+/*Contenedor principal */
+.container {
+    background-color: 	#6d707f;
+    border-radius: 0.9375rem; /* 15px */
+    padding: 2.5rem; /* 40px */
+    box-shadow: 0px 0.625rem 1.25rem rgba(0, 0, 0, 0.1); /* 10px 20px */
+}
+
+/*titulo */
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1.875rem; /* 30px */
+}
+
+/*Estilo de los botones */
+.btn {
+    width: 5rem; /* 80px */
+    height: 5rem; /* 80px */
+    font-size: 1.875rem; /* 30px */
+    border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/*Estilo de los botones cuando pasa el mouse por encima */
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/*Botn de decrementar */
+.btn-danger {
+    background-color: #ff6f61;
+    border: none;
+}
+
+/*Botn de incrementar */
+.btn-success {
+    background-color:#1abc9c;
+    border: none;
+}
+
+/*Efecto cuando el mouse esta encima del botn */
+.btn-danger:hover {
+    background-color: #d93628;
+}
+
+.btn-success:hover {
+    background-color: #17a673;
+}
+
+/*Estilo para el contador */
+#contador {
+    font-size: 3.75rem; 
+    color: #333;
+    font-weight: bold;
+    padding: 0.625rem 1.25rem; 
+    background-color: #f8f9fc;
+    border-radius: 0.75rem; 
+    box-shadow: 0px 0.25rem 0.625rem rgba(0, 0, 0, 0.1); 
+}
